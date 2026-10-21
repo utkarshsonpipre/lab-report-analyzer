@@ -109,7 +109,7 @@ export default function Home() {
                         <span className={`badge ${r.classification}`}>{LABEL[r.classification]}</span>
                       </td>
                       <td className="muted">
-                        {r.original_name}: {r.original_value} {r.original_unit}
+                        {r.original_name}: {r.value_text} {r.original_unit}
                       </td>
                     </tr>
                   ))}

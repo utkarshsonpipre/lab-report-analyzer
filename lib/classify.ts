@@ -9,7 +9,6 @@ export type Extracted = {
   value: number | null; // numeric value in standard unit (null if qualitative)
   value_text: string; // as printed, e.g. "<0,2" or "Positivo"
   unit: string; // standard unit (empty for qualitative)
-  original_value: string;
   original_unit: string;
   lab_range: Range | null; // lab's own reference interval, converted to standard unit
   lab_flag: "normal" | "abnormal" | null; // lab's own marking (e.g. asterisk), if any
