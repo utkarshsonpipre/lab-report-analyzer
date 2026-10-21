@@ -1,5 +1,7 @@
 # Lab Report Analyzer
 
+**Live demo:** https://lab-report-analyzer-ten.vercel.app (Vercel Hobby, free tier)
+
 Upload a lab report PDF (any language), get every biomarker extracted, translated to a standard English name and unit, and classified as **optimal**, **normal**, or **out of range** for the patient's age and sex.
 
 Verified on the sample Spanish Eurofins report (male, born 1978, hemogram + glucose + lipids + proteins + renal panel): all 37 results extracted, units converted (g/L → g/dL, x10³/mm³ → x10^3/µL), 3 flagged out of range (total, LDL and non-HDL cholesterol), 14 optimal, 20 normal.
@@ -53,7 +55,7 @@ Groq free tier allows 8 000 tokens/minute; one two-page report uses ~6 500, so t
 
 ## Cloud resources for deployment
 
-Deployment was not required; this is what I would use.
+Deployed on Vercel Hobby (free). For production I would use:
 
 | Concern | Choice | Why |
 |---|---|---|
